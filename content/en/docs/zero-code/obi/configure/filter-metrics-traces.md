@@ -25,7 +25,7 @@ attributes, check the [OBI exported metrics](../../metrics/) document.
 
 Each `application` and `network` filter section is a map where each key is an
 attribute name (either in Prometheus or OpenTelemetry format), with either a
-string or numeric machter (see below). For string matching you can use the
+string or numeric matcher (see below). For string matching you can use the
 `match` or the `not_match` property. Both properties accept a
 [glob-like](https://github.com/gobwas/glob) string (it can be a full value or
 include wildcards). If you set the `match` property, OBI only reports the
